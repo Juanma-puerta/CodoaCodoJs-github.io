@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Trabajo Integrador</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="estilos.css">
+  </head>
+  <body>
+    <!------- Navbar ------->
+    <nav class="navbar navbar-expand-lg bg-primary d-flex justify-content-between" data-bs-theme="dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="imagenes/codoacodo.png" alt="Logo Codo a Codo" widht="50" height="50">
+          Conf Bs As
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarColor01">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="#">Home
+                <span class="visually-hidden">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" fs-5>La conferencia</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Los oradores</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">El lugar y la fecha</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conviértete en orador</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="tickets.html">Comprar tickets</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- Carrusel de imagenes -->
+<div id="carouselExampleIndicators" class="carousel slide">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active ">
+      <img src="imagenes/ba1.jpg" class="d-block w-100 img-carrusel" alt="imagen 1" height=" 900">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/ba2.jpg" class="d-block w-100 img-carrusel" alt="imagen 2" height=" 900">
+    </div>
+    <div class="carousel-item">
+      <img src="imagenes/ba3.jpg" class="d-block w-100 img-carrusel" alt="imagen 3" height=" 900">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+<!------- Texto oradores ------->
+<section class="container mt-5 mb-5">
+  <div class=" row m-5">
+    <div class="col-12 text-center">
+      <h6>CONOCE A LOS</h6>
+      <h3 class="fw-bold">ORADORES</h3>
+    </div>
+  </div>
+  <!------- Seccion cards ------->
+  <div class="card-group">
+    <div class="card">
+      <img src="imagenes/steve.jpg" class="card-img-top card-img" alt="steve">
+      <div class="card-body">
+        <h5 class="card-title mb-3 fw-semibold">Steve Jobs</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imagenes/bill.jpg" class="card-img-top card-img" alt="bill">
+      <div class="card-body">
+        <h5 class="card-title mb-3 fw-semibold">Bill Gates</h5>
+        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+    <div class="card">
+      <img src="imagenes/ada.jpeg" class="card-img-top card-img" alt="Ada">
+      <div class="card-body">
+        <h5 class="card-title mb-3 fw-semibold">Ada Lovelace</h5>
+        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+      </div>
+    </div>
+  </div>
+</section>
+<!------- Seccion Buenos Aires ------->
+<section class="container-fluid">
+  <div class="row">
+    <div class="col-lg-6 col-sm-12 g-0 " >
+      <img class="img-fluid " src="imagenes/honolulu.jpg" alt="playa">
+    </div>
+    <div class="col-lg-6 col-sm-12  bg-dark text-white text-sm-center text-md-center text-lg-start p-5" >
+      <h3>Bs As - Octubre</h3>
+      <p>Buenos Aires es la provincia y localidad más grande del estado de Argentina,en los Estados Unidos. Honolulu es la más sureña de entre las principales ciudades estadounidenses. Aunque el nombre de Honolulu se refiere al área urbana en la costa sureste de la isla de Oahu, la ciudad y el condedo de Honolulu han formado una ciudad-condado consolidada que cubre toda la ciudad (aproximadamente 600 km cuadrados de superficie) </p>
+    </div>
+  </div>
+</section>
+
+<!------- Seccion Formulario ------->
+<section class="mb-5">
+  <div>
+    <div class=" row m-5">
+      <div class="col-12 text-center">
+        <h6>CONVIÉRTETE EN UN</h6>
+        <h3 class="fw-bold">ORADOR</h3>
+        <p>Anótate como orador para dar una <span>charla ignite</span>. Cuéntanos de qué quieres hablar!</p>
+      </div>
+    </div>
+  </div>
+  <div class="col-12 d-flex justify-content-center">
+    <div class="row g-3">
+      <div class="mb-3 col">
+        <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
+      </div>
+      <div class="mb-3 col">
+        <input type="text" class="form-control" id="formGroupExampleInput2" placeholder="Apellido">
+      </div>
+      <div class="col-12">
+        <textarea class="form-control" aria-label="With textarea" rows="6"></textarea>
+      </div>
+      <div>
+        <p style="font-size: 12px;">Recuerda incluir un titulo para tu charla</p>
+        <button type="button" class="btn btn-success w-100">Enviar</button>
+      </div>
+    </div>
+  </div>
+</section>
+<!------- Footer ------->
+<footer class="footer container-fluid">
+  <div class="row">
+    <div class="col d-flex justify-content-around align-items-center p-2 ">
+      <a href="" class="decoracion-a">Preguntas <br> frecuentes</a>
+      <a href="" class="decoracion-a">Contáctanos</a>
+      <a href="" class="decoracion-a">Prensa</a>
+      <a href="" class="decoracion-a"> Conferencias</a>
+      <a href="" class="decoracion-a">Terminos y <br>Condiciones</a>
+      <a href="" class="decoracion-a">Privacidad</a>
+      <a href="" class="decoracion-a">Estudiantes</a>
+    </div>
+  </div>
+</footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
